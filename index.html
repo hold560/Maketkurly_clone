@@ -11,10 +11,10 @@
     <title>Market kurly</title>
   </head>
   <body>
-    <span class="header">
-      <span class="logo">
+    <div class="topbar">
+      <div class="logo">
         <img src="images/MarketkurlyLogo.PNG" />
-      </span>
+      </div>
       <span class="cart-icon">
         <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
       </span>
@@ -27,7 +27,7 @@
           </a>
         </span>
         <span class="toolbar-new">
-          <a href="newproudct.html">
+          <a href="newproduct.html">
             신상품
           </a>
         </span>
@@ -53,10 +53,41 @@
     </div>
     <div class="recommend">
       <span class="recommend-title">이 상품 어때요?</span>
-      <div class="recommend-list">
-        <img src="images/RecomendAD_1.PNG" />
-        <img src="images/RecomendAD_2.PNG" />
-      </div>
+      <ul class="recommend-list">
+          <li class="recommend-item">
+            <div class="recommend-image">
+                <img src="images/RecomendAD_1.PNG">
+            </div>
+            <span class="recommend-MD">
+                <div class="recommend-MDtitle">
+                    [고래사] 스페셜 어묵 4종
+                </div>
+                <div class="recommend-DCprice">
+                    1,800원
+                </div>
+                <div class="recommend-price">
+                    2,000원
+                </div>
+            </span>
+          </li>
+          <li class="recommend-item">
+            <div class="recommend-image">
+                <img src="images/RecomendAD_2.PNG">
+            </div>
+            <span class="recommend-MD">
+                <div class="recommend-MDtitle">
+                    [미당] 감자탕
+                </div>
+                <div class="recommend-DCprice">
+                    5,625원
+                </div>
+                <div class="recommend-price">
+                    7,500원
+                </div>
+            </span>
+          </li>
+      </ul>
+    </div>
     </div>
     <div class="discount">
       <span class="discount-title">일일특가</span>
@@ -79,9 +110,9 @@
         </span>
         <ul class="eventnews-list">
           <li class="eventnews-item">
-            <span class="eventnews-image">
+            <div class="eventnews-image">
                 <img src="images/EventAD_1.PNG">
-            </span>
+            </div>
             <span class="eventnews-MD">
                 <div class="eventnews-MDtitle">
                     파스키에 최대 40% 할인
@@ -92,9 +123,9 @@
             </span>
           </li>
           <li class="eventnews-item">
-            <span class="eventnews-image">
+            <div class="eventnews-image">
                 <img src="images/EventAD_2.PNG">
-            </span>
+            </div>
             <span class="eventnews-MD">
                 <div class="eventnews-MDtitle">
                     간편 도시락 최대 40% 할인
@@ -105,9 +136,9 @@
             </span>
           </li>
           <li class="eventnews-item">
-            <span class="eventnews-image">
+            <div class="eventnews-image">
                 <img src="images/EventAD_3.PNG">
-            </span>
+            </div>
             <span class="eventnews-MD">
                 <div class="eventnews-MDtitle">
                     오키친 최대 40% 할인
@@ -119,5 +150,33 @@
           </li>
         </ul>
       </div>
+      <nav class="nav">
+          <ul class="nav_list">
+              <li class="nav_list-item">
+                    <a href="index.html" class="nav_list-link">
+                      <i class="fas fa-home"></i>
+                      <div class="nav_list-title">홈</div>
+                    </a>
+              </li>
+              <li class="nav_list-item">
+                <a href="category.html" class="nav_list-link">
+                    <i class="fas fa-bars"></i>
+                  <div class="nav_list-title">카테고리</div>
+                </a>
+            </li>
+            <li class="nav_list-item">
+                <a href="search.html" class="nav_list-link">
+                    <i class="fas fa-search"></i>
+                  <div class="nav_list-title">검색</div>
+                </a>
+            </li>
+            <li class="nav_list-item">
+                <a href="mykurly.html" class="nav_list-link">
+                    <i class="fas fa-user"></i>
+                  <div class="nav_list-title">마이 컬리</div>
+                </a>
+            </li>
+          </ul>
+      </nav>
   </body>
 </html>
