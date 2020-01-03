@@ -9,8 +9,6 @@
 
 body {
   background-color: white;
-  padding: 10px 20px;
-  color: #020202;
   font-family: "Nanum Gothic", sans-serif;
   /* if Nanum Gothic doesnt exist, it sets with default*/
 }
