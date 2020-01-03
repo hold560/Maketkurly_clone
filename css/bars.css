@@ -1,0 +1,33 @@
+.bars {
+  position: fixed;
+  width: 100%;
+}
+
+.topbar {
+  background-color: #5f0080;
+  display: flex;
+  padding-right: 15px;
+}
+
+.topbar i {
+  font-size: 20px;
+}
+
+.topbar .topbar-icon {
+  margin-left: auto;
+  align-self: center;
+}
+
+.topbar .logo {
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+.toolbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 18px;
+  color: #7e7e7e;
+  font-weight: 600;
+}

@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap&subset=korean");
 @import "reset.css";
-@import "topbar.css";
-
+@import "bars.css";
+@import "index_main.css";
+@import "nav.css";
 * {
   box-sizing: border-box;
 }
@@ -12,3 +13,10 @@ body {
   font-family: "Nanum Gothic", sans-serif;
   /* if Nanum Gothic doesnt exist, it sets with default*/
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* even hyper link doesnt need color */

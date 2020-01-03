@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  padding: 12px 18px;
+}
+
+.nav .nav_list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav_list-item i {
+  font-size: 19px;
+}
+
+.nav_list-title {
+  margin-top: 8px;
+  font-size: 9px;
+}
