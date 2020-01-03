@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap&subset=korean");
+@import "reset.css";
+@import "topbar.css";
+
+* {
+  box-sizing: border-box;
+}
+/* it means Box size wont change even i put padding */
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Nanum Gothic", sans-serif;
+  /* if Nanum Gothic doesnt exist, it sets with default*/
+}

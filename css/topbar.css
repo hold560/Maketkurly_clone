@@ -1,0 +1,20 @@
+.topbar {
+  position: fixed;
+  width: 100%;
+  background-color: #5f0080;
+  padding: 15px 30px;
+  display: flex;
+}
+
+.topbar i {
+  font-size: 20px;
+}
+
+.topbar .topbar-icon {
+  margin-left: auto;
+  align-self: center;
+}
+
+.topbar .logo {
+  margin-left: 50%;
+}
