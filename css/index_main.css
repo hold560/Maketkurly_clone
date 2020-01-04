@@ -1,4 +1,79 @@
 .index_main {
   display: fixed;
-  height: 116px;
+  background-color: #f7f7f7;
+}
+
+.mainAD {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.recommend {
+  padding: 30px 0px 30px 15px;
+  background-color: white;
+}
+
+.recommend-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+.recommend-list {
+  display: flex;
+  padding-top: 15px;
+}
+
+.recommend-MDtitle {
+  padding-top: 5px;
+}
+
+.recommend-DCprice {
+  padding-top: 5px;
+  font-weight: 600;
+}
+
+.recommend-price {
+  padding-top: 4px;
+  padding-left: 13px;
+  font-size: 14px;
+  color: #9e9e9e;
+  text-decoration: line-through;
+}
+
+.discount {
+  background-color: white;
+  margin-top: 20px;
+  padding: 30px 0px 30px 15px;
+}
+
+.discount-title {
+  font-size: 23px;
+  font-weight: 600;
+  color: #5f0080;
+}
+
+.discount-explanation {
+  color: #9e9e9e;
+}
+
+.discount-MD {
+  font-size: 18px;
+}
+
+.discount-percentage {
+  font-weight: 600;
+  color: #5f0080;
+}
+
+.discount-price {
+  font-weight: 600;
+}
+.discount-DCprice {
+  font-size: 14px;
+  color: #9e9e9e;
+  text-decoration: line-through;
+}
+
+.discount-padding {
+  padding-bottom: 10px;
 }
