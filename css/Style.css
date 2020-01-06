@@ -3,6 +3,7 @@
 @import "bars.css";
 @import "index_main.css";
 @import "nav.css";
+@import "category.css";
 * {
   box-sizing: border-box;
 }
