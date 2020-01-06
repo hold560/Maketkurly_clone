@@ -1,0 +1,32 @@
+.cart_main {
+  display: fixed;
+  padding-top: 80px;
+  background-color: #f7f7f7;
+}
+
+.cart_input {
+  padding: 10px 25%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+.cart_section {
+  margin-bottom: 10px;
+}
+
+.cart_search {
+  background-color: white;
+}
+
+.cart_searchtitle {
+  padding: 20px 30px;
+  font-size: 13px;
+}
+
+.cart_item {
+  padding: 15px 30px;
+  margin: 2px 0;
+  background-color: white;
+  color: #5f0080;
+  font-size: 17px;
+}

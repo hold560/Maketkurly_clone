@@ -4,6 +4,8 @@
 @import "index_main.css";
 @import "nav.css";
 @import "category.css";
+@import "search.css";
+
 * {
   box-sizing: border-box;
 }
