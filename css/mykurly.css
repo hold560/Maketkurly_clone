@@ -1,0 +1,28 @@
+.mykurly_section {
+  display: absolute;
+  padding-top: 70px;
+  background-color: #f7f7f7;
+}
+
+.mykurly_profile {
+  display: absolute;
+  background-color: white;
+  padding: 30px 0px 30px 20px;
+}
+
+.mykurly_profile-rank {
+  border: 1px solid purple;
+  border-radius: 6px;
+  padding: 15px 10px;
+  color: purple;
+  font-weight: 600;
+}
+
+.mykurly_profile-left {
+  background-color: red;
+  padding-left: 80px;
+}
+
+.mykurly_profile-name + .mykurly_profile-point {
+  display: block;
+}

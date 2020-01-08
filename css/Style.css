@@ -5,6 +5,7 @@
 @import "nav.css";
 @import "category.css";
 @import "search.css";
+@import "mykurly.css";
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,6 @@
 /* it means Box size wont change even i put padding */
 
 body {
-  background-color: white;
   font-family: "Nanum Gothic", sans-serif;
   /* if Nanum Gothic doesnt exist, it sets with default*/
 }
@@ -23,3 +23,7 @@ a {
 }
 
 /* even hyper link doesnt need color */
+
+.nav_selected {
+  color: #5f0080;
+}

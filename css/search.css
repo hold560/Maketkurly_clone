@@ -1,31 +1,35 @@
 .cart_main {
-  display: fixed;
+  display: absolute;
   padding-top: 80px;
   background-color: #f7f7f7;
 }
 
 .cart_input {
-  padding: 10px 25%;
-  transform: translateX(-50%);
-  margin-left: 50%;
-}
-
-.cart_section {
-  margin-bottom: 10px;
-}
-
-.cart_search {
-  background-color: white;
+  padding: 15px 10px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 80%;
+  display: flex;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 15px;
 }
 
 .cart_searchtitle {
-  padding: 20px 30px;
+  margin-top: 20px;
+  padding: 30px 30px 5px 30px;
   font-size: 13px;
+  color: #888787;
+  background-color: white;
+  font-weight: 600;
 }
 
 .cart_item {
   padding: 15px 30px;
-  margin: 2px 0;
+  margin-bottom: 2px;
   background-color: white;
   color: #5f0080;
   font-size: 17px;
