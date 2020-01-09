@@ -13,9 +13,11 @@
 .mykurly_profile-rank {
   border: 1px solid purple;
   border-radius: 6px;
-  padding: 15px 10px;
   color: purple;
   font-weight: 600;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
 }
 
 .mykurly_profile-left {
@@ -23,6 +25,6 @@
   padding-left: 80px;
 }
 
-.mykurly_profile-name + .mykurly_profile-point {
-  display: block;
+.mykurly_profile-left {
+  display: inline-block;
 }
